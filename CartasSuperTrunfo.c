@@ -47,7 +47,7 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontos01);     // Lê inteiro
     densidade1 = populacao1 / area1; //calculo de densidade
-    pib_per_capita1 =(float) pib1 / populacao1; //calculo de PIB per capita
+    pib_per_capita1 = (pib1 * 1000000000.0f) / populacao1; //calculo de PIB per capita
 
     // === CADASTRO DA CARTA 2 ===
     printf("\n=== Cadastro da Carta 2 ===\n");
@@ -68,7 +68,7 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontos02);
     densidade2 = populacao2 / area2; //calculo de densidade
-    pib_per_capita2 = (float)pib2 / populacao2; //calculo de PIB per capita
+    pib_per_capita2 = (pib2 * 1000000000.0f) / populacao2; //calculo de PIB per capita
 
   // Área para exibição dos dados da cidade
    // === EXIBIÇÃO ===
